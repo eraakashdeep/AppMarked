@@ -1,0 +1,59 @@
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between logos */
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-height: 100px; /* Adjust size as needed */
+  object-fit: contain;
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  color: #333; /* Default color for icons */
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icon {
+  font-size: 24px; /* Adjust size as needed */
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+.client-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between client logos */
+  margin: 20px 0;
+}
+
+.client-logo {
+  max-height: 60px; /* Adjust size as needed */
+  object-fit: contain;
+  width: auto; /* Maintain aspect ratio */
+}
+
+.footer-text {
+  color: #6c757d; /* Gray color for text */
+}
