@@ -29,9 +29,9 @@ import client from "../Assets/Infojini.jpeg";
 import client3 from "../Assets/CareerNet.png";
 import client4 from "../Assets/hirect.png";
 import client5 from "../Assets/vedantu.jpg";
-import client6 from "../Assets/vahak.png";
-import client7 from "../Assets/kreditbee.png";
-import client8 from "../Assets/blackbuck_logo-1.png";
+import client6 from "../Assets/udemy.jpg";
+import client7 from "../Assets/byjus.jpg";
+import client8 from "../Assets/Simplilearn.jpg";
 const Footer = () => {
   return (
     <footer className="footer">

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import icon from "../Assets/logo5.jpg";
+import icon from "../Assets/logo.jpg";
 import "../pages/styles.css";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/">
                 <h4 className="logo">    <img width="100vh" height="100vh" src={icon}/>
             {/* EAD<span>&nbsp;IT ProConnect</span> */}
-            APPMARKED
+             APP<span>MARKED</span>
           </h4>
                 </NavLink>
                 <button className="navbar-toggler mx-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

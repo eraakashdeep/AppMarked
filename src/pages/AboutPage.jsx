@@ -1,19 +1,14 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
-import advisor from "../Assets/rss.jpg";
-import advisors from "../Assets/mrs.jpg";
 import client from "../Assets/Infojini.jpeg";
 import client1 from "../Assets/Quess.png";
 import client3 from "../Assets/CareerNet.png";
 import client4 from "../Assets/hirect.png";
 import client5 from "../Assets/vedantu.jpg";
-import client6 from "../Assets/vahak.png";
-import client7 from "../Assets/kreditbee.png";
-import client8 from "../Assets/blackbuck_logo-1.png";
-import team from "../Assets/ssad.jpg";
-import team1 from "../Assets/sp.jpg";
-import team2 from "../Assets/ks.jpeg";
-import avater from "../Assets/a.png";
+import client6 from "../Assets/udemy.jpg";
+import client7 from "../Assets/byjus.jpg";
+import client8 from "../Assets/Simplilearn.jpg";
+
 
 const AboutPage = () => {
   return (
@@ -353,7 +348,7 @@ const AboutPage = () => {
                 height={160}
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Vahak</h5>
+                <h5 className="card-title text-center">Udemy</h5>
               </div>
             </div>
           </div>
@@ -366,7 +361,7 @@ const AboutPage = () => {
                 height={160}
               />
               <div className="card-body">
-                <h5 className="card-title text-center">KreditBee</h5>
+                <h5 className="card-title text-center">Byju's</h5>
               </div>
             </div>
           </div>
@@ -379,7 +374,7 @@ const AboutPage = () => {
                 height={160}
               />
               <div className="card-body">
-                <h5 className="card-title text-center">BlackBuck</h5>
+                <h5 className="card-title text-center">Simplilearn</h5>
               </div>
             </div>
           </div>
