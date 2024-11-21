@@ -42,19 +42,19 @@ const Footer = () => {
           <img src={logo2} alt="BestPlaces Logo" className="logo" />
         </div>
         <div className="social-media">
-          <a href="https://www.facebook.com/share/FQDDhT5Qr7dHyw5Y/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a href="https://www.facebook.com/appmarked" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <i className="fab fa-facebook-f social-icon"></i>
           </a>
-          <a href="https://x.com/eraakashdeep?t=o8E99eumVmBcwY2MTtotrg&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <a href="https://x.com/app_marked" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <i className="fab fa-twitter social-icon"></i>
           </a>
-          <a href="https://www.linkedin.com/company/deeptedx/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/appmarked/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <i className="fab fa-linkedin-in social-icon"></i>
           </a>
-          <a href="https://www.instagram.com/deep_tedx?igsh=cmJiM3p3ODh6MjQw" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/appmarked/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <i className="fab fa-instagram social-icon"></i>
           </a>
-          <a href="http://www.youtube.com/@DeepTedx" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <a href="https://www.youtube.com/@AppMarked" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
             <i className="fab fa-youtube social-icon"></i>
           </a>
         </div>
