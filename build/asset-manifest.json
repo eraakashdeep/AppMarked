@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.039eaeac.css",
-    "main.js": "/static/js/main.5bc3fa18.js",
-    "static/js/239.d4f54970.chunk.js": "/static/js/239.d4f54970.chunk.js",
-    "static/js/213.bb4261b7.chunk.js": "/static/js/213.bb4261b7.chunk.js",
-    "static/js/455.f0f55a5c.chunk.js": "/static/js/455.f0f55a5c.chunk.js",
-    "static/js/453.9443696f.chunk.js": "/static/js/453.9443696f.chunk.js",
+    "main.css": "/static/css/main.82fb5459.css",
+    "main.js": "/static/js/main.4c48c562.js",
+    "static/js/239.fc3421c9.chunk.js": "/static/js/239.fc3421c9.chunk.js",
+    "static/js/213.f93a6975.chunk.js": "/static/js/213.f93a6975.chunk.js",
+    "static/js/455.99f5a751.chunk.js": "/static/js/455.99f5a751.chunk.js",
+    "static/js/453.95196371.chunk.js": "/static/js/453.95196371.chunk.js",
     "static/media/Home.png": "/static/media/Home.299841d9aee55357c8b7.png",
     "static/media/CareerNet.png": "/static/media/CareerNet.5d581344bd3c00f13281.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -20,6 +20,7 @@
     "static/media/vedantu.jpg": "/static/media/vedantu.79880f7e00e270a297f7.jpg",
     "static/media/logo4.png": "/static/media/logo4.88017993c5daf13e09d0.png",
     "static/media/Barcode.jpg": "/static/media/Barcode.543cac771b52181d1429.jpg",
+    "static/media/Home.jpeg": "/static/media/Home.48282307d599ff67188c.jpeg",
     "static/media/flp.jpeg": "/static/media/flp.5f02dfcba9db57b63d0b.jpeg",
     "static/media/bestplaces.jpeg": "/static/media/bestplaces.a3b2e33b2ee5d0dad32b.jpeg",
     "static/media/synopsys.png": "/static/media/synopsys.bea76ee6b322b1da4d3d.png",
@@ -35,19 +36,19 @@
     "static/media/paytm.png": "/static/media/paytm.fd7bf2f466023f3c3ace.png",
     "static/media/awards.jpg": "/static/media/awards.755da2b8f8cd0cd37202.jpg",
     "static/media/ibm.jpeg": "/static/media/ibm.b700f9aef98d6a67d5ad.jpeg",
-    "static/media/logo.jpg": "/static/media/logo.b9ca6c193ba99d1e7bc8.jpg",
+    "static/media/logo1.jpg": "/static/media/logo1.b9ca6c193ba99d1e7bc8.jpg",
     "static/media/Great-Place-to-Work.webp": "/static/media/Great-Place-to-Work.f2f18b9b6a6b6543e8d9.webp",
     "static/media/cognizant.webp": "/static/media/cognizant.322b3a8a75fff5cbbc7d.webp",
     "index.html": "/index.html",
-    "main.039eaeac.css.map": "/static/css/main.039eaeac.css.map",
-    "main.5bc3fa18.js.map": "/static/js/main.5bc3fa18.js.map",
-    "239.d4f54970.chunk.js.map": "/static/js/239.d4f54970.chunk.js.map",
-    "213.bb4261b7.chunk.js.map": "/static/js/213.bb4261b7.chunk.js.map",
-    "455.f0f55a5c.chunk.js.map": "/static/js/455.f0f55a5c.chunk.js.map",
-    "453.9443696f.chunk.js.map": "/static/js/453.9443696f.chunk.js.map"
+    "main.82fb5459.css.map": "/static/css/main.82fb5459.css.map",
+    "main.4c48c562.js.map": "/static/js/main.4c48c562.js.map",
+    "239.fc3421c9.chunk.js.map": "/static/js/239.fc3421c9.chunk.js.map",
+    "213.f93a6975.chunk.js.map": "/static/js/213.f93a6975.chunk.js.map",
+    "455.99f5a751.chunk.js.map": "/static/js/455.99f5a751.chunk.js.map",
+    "453.95196371.chunk.js.map": "/static/js/453.95196371.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.039eaeac.css",
-    "static/js/main.5bc3fa18.js"
+    "static/css/main.82fb5459.css",
+    "static/js/main.4c48c562.js"
   ]
 }

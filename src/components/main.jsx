@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Assets/Home.png";
+import logo from "../Assets/Home.jpeg";
 import "../pages/styles.css";
 import { Link } from "react-router-dom";
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
           </div>
         </div>
         <div className="button" data-testid="btn">
-          <Link to="/Jobs">Browse Jobs</Link>
+          <Link to="/product">Browse Jobs</Link>
         </div>
       </div>
           {/* <img

@@ -11,28 +11,28 @@ const ContactPage = () => {
           Feel free to reach out through any of the following methods:
         </p>
         <div className="text-center my-4">
-          <a href="tel:+919663043640" target="_blank" className="mx-2">
+          <a href="tel:+917608829869" target="_blank" className="mx-2">
             <i className="fas fa-phone"></i> Phone
           </a>
-          <a href="https://wa.me/919663043640" target="_blank" className="mx-2">
+          <a href="https://wa.me/917608829869" target="_blank" className="mx-2">
             <i className="fab fa-whatsapp"></i> WhatsApp
           </a>
-          <a href="mailto:deeptedx.team@gmail.com" target="_blank" className="mx-2">
+          <a href="mailto:appmarked.us@gmail.com" target="_blank" className="mx-2">
             <i className="fas fa-envelope"></i> Gmail
           </a>
-          <a href="https://www.linkedin.com/company/deeptedx/" target="_blank" className="mx-2">
+          <a href="https://www.linkedin.com/company/appmarked/" target="_blank" className="mx-2">
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
-          <a href="https://www.instagram.com/deep_tedx?igsh=cmJiM3p3ODh6MjQw" target="_blank" className="mx-2">
+          <a href="https://www.instagram.com/appmarked/" target="_blank" className="mx-2">
             <i className="fab fa-instagram"></i> Instagram
           </a>
-          <a href="https://www.facebook.com/share/FQDDhT5Qr7dHyw5Y/?mibextid=qi2Omg" target="_blank" className="mx-2">
+          <a href="https://www.facebook.com/appmarked" target="_blank" className="mx-2">
             <i className="fab fa-facebook"></i> Facebook
           </a>
-          <a href="https://x.com/eraakashdeep?t=o8E99eumVmBcwY2MTtotrg&s=09" target="_blank" className="mx-2">
+          <a href="https://x.com/app_marked" target="_blank" className="mx-2">
             <i className="fab fa-twitter"></i> Twitter
           </a>
-          <a href="http://www.youtube.com/@DeepTedx" target="_blank" className="mx-2">
+          <a href="https://www.youtube.com/@AppMarked" target="_blank" className="mx-2">
             <i className="fab fa-youtube"></i> YouTube
           </a>
         </div>

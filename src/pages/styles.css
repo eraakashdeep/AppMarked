@@ -28,11 +28,11 @@ body {
   .title {
     font-size: 45px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
   }
   .title > h3 {
-    text-align: center;
+    text-align: start;
     color: #fff;
     font-weight: bold;
     margin-bottom: 20px;
@@ -107,7 +107,7 @@ body {
 }
 
   .banner-img{
-    background:url("../Assets/Home.png");
+    background:url("../Assets/Home.jpeg");
     height: 700px;
     /* opacity: 0.7; */
     background-size: cover;
