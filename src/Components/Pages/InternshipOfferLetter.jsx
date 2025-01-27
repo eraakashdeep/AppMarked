@@ -93,6 +93,7 @@ const InternshipOfferLetter = () => {
       <div className="stamp-signature">
           <img src={Stamp} alt="Stamp" className="stamp" />
           <p className="signature">Authorized Signature</p>
+          <p style={{float:"right",fontSize:"8px",fontWeight:"bold"}}>Visit for more detail:- https://www.appmarked.com</p>
         </div>
       <div className="footer1">
         <p className="footer-text1">© 2025 Appmarked. All rights reserved.</p>
