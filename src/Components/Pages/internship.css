@@ -1,0 +1,96 @@
+.a4-page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 20mm;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.logo1 {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.title1 {
+  text-align: center;
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+
+.content1 {
+  flex-grow: 1;
+  line-height: 1.6;
+}
+
+.highlight1 {
+  background-color: #ffffcc;
+  font-weight: bold;
+}
+
+.footer1 {
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #0073e6;
+  bottom: 20mm;
+}
+
+.stamp-signature {
+  float: right;
+}
+
+.stamp {
+  height: 80px;
+}
+
+.signature {
+  font-style: italic;
+}
+
+.footer-text1 {
+  margin-top: 1px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.print-button {
+  display: block;
+  margin: 10px auto 0;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #005bb5;
+}
+
+@media print {
+  .a4-page {
+    box-shadow: none;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    page-break-inside: avoid;
+  }
+
+  .print-button {
+    display: none;
+  }
+}

@@ -9,6 +9,7 @@ import Testimonial1 from "./Components/Routes/Testimonial1";
 import Contact1 from "./Components/Routes/Contact1";
 import ErrorPage from "./Components/Pages/ErrorPage";
 import Sign from "./Components/Pages/Sign";
+import InternshipOfferLetter from "./Components/Pages/InternshipOfferLetter";
 import SignUp from "./Components/Pages/Register";
 import Javaprog from "./Components/Course/Javaprog";
 import Dsa from "./Components/Course/Dsa";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About1 />} />
           <Route path="/courses" element={<Courses1 />} />
+          <Route path="/offer-letter/:id" element={<InternshipOfferLetter />} />
           <Route path="/team" element={<Team1 />} />
           <Route path="/testimonial" element={<Testimonial1 />} />
           <Route path="/contact" element={<Contact1 />} />
