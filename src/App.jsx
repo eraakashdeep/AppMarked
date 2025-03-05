@@ -1,6 +1,5 @@
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
-
 import Home from "./Components/Pages/Home";
 import About1 from "./Components/Routes/About1";
 import Courses1 from "./Components/Routes/Courses1";
@@ -8,8 +7,6 @@ import Team1 from "./Components/Routes/Team1";
 import Testimonial1 from "./Components/Routes/Testimonial1";
 import Contact1 from "./Components/Routes/Contact1";
 import ErrorPage from "./Components/Pages/ErrorPage";
-import Sign from "./Components/Pages/Sign";
-import InternshipOfferLetter from "./Components/Pages/InternshipOfferLetter";
 import SignUp from "./Components/Pages/Register";
 import Javaprog from "./Components/Course/Javaprog";
 import Dsa from "./Components/Course/Dsa";
