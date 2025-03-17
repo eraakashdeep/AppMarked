@@ -14,8 +14,7 @@ export default function Navbar() {
           className="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
            <img width="50px" src="/img/icon.png" alt="" />
-          <h2 style={{color:"#dbc078"}} className="m-0">
-            {/* <i className="fa fa-book me-3"></i> */}
+          <h2 style={{color:"#EE1D25",fontSize:"25px"}} className="m-0">
             AppMarked
           </h2>
         </Link>

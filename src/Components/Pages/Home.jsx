@@ -9,7 +9,6 @@ import Testimonial from './Testimonial'
 import Footer from './Footer' 
 import Spinner from './Spinner'
 import Contact from './Contact'
-import BotpressChatbot from '../Ebook/BotpressChatbot'
 
 export default function Home() {
     return (

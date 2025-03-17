@@ -22,7 +22,7 @@ export default function Testimonial() {
                   style={{ width: "80px", minHeight: "80px" }}
                   alt="..."
                 />
-                <h5 className="mb-0">Barsha </h5>
+                <h5 className="mb-0">Barsha Mahato</h5>
                 <p>Student</p>
                 <div className="testimonial-text bg-light text-center p-4">
                   <p className="mb-0">
@@ -39,7 +39,7 @@ export default function Testimonial() {
                   alt="..."
                   style={{ width: "80px", minHeight: "80px" }}
                 />
-                <h5 className="mb-0">Cris Levon</h5>
+                <h5 className="mb-0">Manav Negi</h5>
                 <p>Student</p>
                 <div className="testimonial-text bg-light text-center p-4">
                   <p className="mb-0">

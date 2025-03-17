@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Team() {
   return (
     <>
@@ -18,27 +17,45 @@ export default function Team() {
             >
               <div className="team-item bg-light">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="/img/team-1.png" alt="" />
+                  <img
+                    width="250px"
+                    height="250px"
+                    className="img-fluid"
+                    src="/img/dave_gray_mern.jpeg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-23px" }}
                 >
                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-facebook-f" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.linkedin.com/in/davidagray"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin-in" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-twitter" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.youtube.com/DaveGrayTeachesCode"
+                      target="_blank"
+                    >
+                      <i className="fab fa-youtube" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-instagram" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://yesdavidgray.com"
+                      target="_blank"
+                    >
+                      <i className="fa fa-link" />
                     </a>
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mr. </h5>
-                  <small>MERN Stack Devloper</small>
+                  <h5 className="mb-0">Mr. Dave Gray</h5>
+                  <small>MERN/MEAN Stack Developer</small>
                 </div>
               </div>
             </div>
@@ -48,27 +65,45 @@ export default function Team() {
             >
               <div className="team-item bg-light">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="/img/team-2.png" alt="" />
+                  <img
+                    width="250px"
+                    height="250px"
+                    className="img-fluid"
+                    src="/img/david_apps.jpeg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-23px" }}
                 >
                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-facebook-f" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.linkedin.com/in/mrdavidorok/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin-in" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-twitter" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.youtube.com/@nocodeafrica"
+                      target="_blank"
+                    >
+                      <i className="fab fa-youtube" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-instagram" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.nocodeafrica.com/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-link" />
                     </a>
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mrs.</h5>
-                  <small>Web Designer & Devloper</small>
+                  <h5 className="mb-0">Mrs. David Orok</h5>
+                  <small>Web/Mobile Designer & Developer</small>
                 </div>
               </div>
             </div>
@@ -78,26 +113,44 @@ export default function Team() {
             >
               <div className="team-item bg-light">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="/img/team-3.png" alt="" />
+                  <img
+                    width="250px"
+                    height="250px"
+                    className="img-fluid"
+                    src="/img/kunal_dsa.png"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-23px" }}
                 >
                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-facebook-f" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.linkedin.com/in/kunal-kushwaha/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin-in" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-twitter" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.youtube.com/@KunalKushwaha"
+                      target="_blank"
+                    >
+                      <i className="fab fa-youtube" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-instagram" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.techwithkunal.com/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-link" />
                     </a>
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mr.</h5>
+                  <h5 className="mb-0">Mr. Kunal Kushwaha</h5>
                   <small>Data Structure & Algorithms</small>
                 </div>
               </div>
@@ -108,27 +161,45 @@ export default function Team() {
             >
               <div className="team-item bg-light">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="/img/team-4.png" alt="" />
+                  <img
+                    width="250px"
+                    height="250px"
+                    className="img-fluid"
+                    src="/img/mosh_c.jpg"
+                    alt=""
+                  />
                 </div>
                 <div
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-23px" }}
                 >
                   <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-facebook-f" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.linkedin.com/school/codewithmosh/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin-in" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-twitter" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://www.youtube.com/@programmingwithmosh"
+                      target="_blank"
+                    >
+                      <i className="fab fa-youtube" />
                     </a>
-                    <a className="btn btn-sm-square btn-primary mx-1" href>
-                      <i className="fab fa-instagram" />
+                    <a
+                      className="btn btn-sm-square btn-primary mx-1"
+                      href="https://codewithmosh.com/courses"
+                      target="_blank"
+                    >
+                      <i className="fa fa-link" />
                     </a>
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mrs.</h5>
-                  <small>C and C++</small>
+                  <h5 className="mb-0">Mrs. Mosh SE</h5>
+                  <small>C, C++, Java, Python</small>
                 </div>
               </div>
             </div>
