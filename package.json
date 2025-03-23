@@ -17,6 +17,7 @@
     "@mui/icons-material": "^5.15.16",
     "@mui/material": "^5.15.16",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "antd": "^5.24.4",
     "axios": "^1.6.8",
     "express": "^4.18.3",
     "jquery": "^3.7.1",
@@ -26,7 +27,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.3",
+    "react-phone-input-2": "^2.15.1",
     "react-router-dom": "^6.22.3",
+    "react-toastify": "^11.0.5",
     "styled-components": "^6.1.9"
   },
   "devDependencies": {

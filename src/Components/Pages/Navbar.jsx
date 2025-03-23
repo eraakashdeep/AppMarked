@@ -1,11 +1,16 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink,useNavigate } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import Spinner from "./Spinner";
 
 export default function Navbar() {
   const { user, isAuthenticated, isLoading, logout, loginWithRedirect } =
     useAuth0();
+     const navigate = useNavigate();
+    const handleRedirect=()=>{
+      navigate("/register", { replace: true });
+    }
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
@@ -114,7 +119,7 @@ export default function Navbar() {
           ) : (
             <button
               className="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
-              // onClick={() => loginWithRedirect()}
+               onClick={handleRedirect}
             >
               Join Now<i className="fa fa-arrow-right ms-3"></i>
             </button>

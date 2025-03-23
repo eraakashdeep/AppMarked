@@ -32,9 +32,11 @@ import Profile from "./Components/Pages/Profile";
 import { useAuth0 } from "@auth0/auth0-react";
 import Feedback from "./Components/Pages/Feedback";
 import FeedbackAll from "./Components/Pages/FeedbackAll";
+import { Login } from "@mui/icons-material";
+import Sign from "./Components/Pages/Sign";
 
 function App() {
-  const { loginWithRedirect } = useAuth0();
+  // const { loginWithRedirect } = useAuth0();
   return (
     <>
       <HashRouter>
@@ -49,10 +51,10 @@ function App() {
           <Route path="/contact" element={<Contact1 />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route
-            path="/signin"
-            render={() => {
-              loginWithRedirect();
-            }}
+            path="/signin" element={<Sign/>}
+            // render={() => {
+            //   loginWithRedirect();
+            // }}
           />
           <Route path="/register" element={<SignUp />} />
           <Route path="/profile" element={<Profile />} />
