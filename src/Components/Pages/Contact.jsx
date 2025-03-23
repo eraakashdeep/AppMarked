@@ -1,34 +1,9 @@
-import React from "react";
-import HCaptcha from "@hcaptcha/react-hcaptcha";
+import React, { useState } from "react";
 
-export default function Contact() {
-  const [result, setResult] = React.useState("");
-
-  const onHCaptchaChange = (token) => {
-    setValue("h-captcha-response", token);
-  };
-
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-
-    formData.append("access_key", "b9fd69e0-c307-4f57-b90f-9c4106746fcb");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data = await response.json();
-
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
+const Contact = () => {
+  const resetField = () => {
+    const form = document.getElementById("appmarked-form");
+    form.reset();
   };
 
   return (
@@ -106,89 +81,128 @@ export default function Contact() {
               className="col-lg-4 col-md-12 wow fadeInUp"
               data-wow-delay="0.5s"
             >
-              <form onSubmit={onSubmit}>
-                <input type="hidden" name="from_name" value="appmarked" />
-
-                <div className="row g-3">
-                  <div className="col-md-6">
-                    <div className="form-floating">
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="name"
-                        id="name"
-                        placeholder="Your Name"
-                        required
-                      />
-                      <label htmlFor="name">Your Name</label>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-floating">
-                      <input
-                        type="email"
-                        className="form-control"
-                        id="email"
-                        name="email"
-                        placeholder="Your Email"
-                        required
-                      />
-                      <label htmlFor="email">Your Email</label>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="form-floating">
-                      <input
-                        type="number"
-                        className="form-control"
-                        id="phone"
-                        name="phone"
-                        placeholder="Mobile No"
-                        required
-                      />
-                      <label htmlFor="subject">Mobile No</label>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="form-floating">
-                      <textarea
-                        className="form-control"
-                        placeholder="Leave a message here"
-                        id="message"
-                        name="message"
-                        style={{ height: "150px" }}
-                        defaultValue={""}
-                      />
-                      <label htmlFor="message">Message</label>
-                    </div>
-                  </div>
+              <form
+                id="appmarked-form"
+                target="_blank"
+                action="https://formsubmit.co/appmarked.learning@gmail.com"
+                method="POST"
+              >
+                <h3 style={{ textAlign: "center", color: "CaptionText" }}>
+                  REQUEST QUERY FOR DOUBT
+                </h3>
+                <input type="hidden" name="_template" value="table" />
+                <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="Thank you for you response"
+                />
+                <input type="hidden" name="_subject" value="APPMARKED" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  // value="http://localhost:5173/"
+                    value="https://www.appmarked.com/"
+                />
+                <input
+                  type="hidden"
+                  name="_replyto"
+                  value="email"
+                  placeholder="Email Address"
+                ></input>
+                <input type="hidden" name="_captcha" value="false"></input>
+                <input type="hidden" name="_cc" value="support@appmarked.com" />
+                <div style={{ marginTop: "10px" }}>
+                  <label style={{ fontWeight: "bold" }}>Name</label>
                   <input
-                    type="hidden"
-                    name="subject"
-                    value="New Submission from contact page"
-                  ></input>
-                  <div className="col-8">
-                    <HCaptcha
-                      sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-                      reCaptchaCompat={false}
-                      onVerify={onHCaptchaChange}
-                    />
-                  </div>
-                  <div className="col-12">
-                    <button
-                      className="btn btn-primary w-100 py-3"
-                      type="submit"
-                    >
-                      Send Message
-                    </button>
-                  </div>
+                    style={{
+                      width: "100%",
+                      height: "20px",
+                      borderRadius: "5px",
+                    }}
+                    placeholder="Enter Full Name"
+                    type="text"
+                    name="Name"
+                    required
+                  />
+                </div>
+                <div style={{ marginTop: "10px" }}>
+                  <label style={{ fontWeight: "bold" }}>Email</label>
+                  <input
+                    style={{
+                      width: "100%",
+                      height: "20px",
+                      borderRadius: "5px",
+                    }}
+                    placeholder="Enter Correct Email"
+                    type="email"
+                    name="Email"
+                    required
+                  />
+                </div>
+                <div style={{ marginTop: "10px" }}>
+                  <label style={{ fontWeight: "bold" }}>Phone No</label>
+                  <input
+                    style={{
+                      width: "100%",
+                      height: "20px",
+                      borderRadius: "5px",
+                    }}
+                    placeholder="Enter Phone Number"
+                    type="number"
+                    name="Phone"
+                    required
+                  />
+                </div>
+                <div style={{ marginTop: "10px" }}>
+                  <label style={{ fontWeight: "bold" }}>Subject Query</label>
+                  <textarea
+                    rows={10}
+                    style={{
+                      width: "100%",
+                      borderRadius: "5px",
+                    }}
+                    placeholder="Enter Your Query"
+                    name="Subject"
+                    required
+                  />
+                </div>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                  <button
+                    style={{
+                      borderRadius: "5px",
+                      width: "30%",
+                      height: "25px",
+                      border: "none",
+                      color: "#ffffff",
+                      fontWeight: "bold",
+                      background: "#b4027b",
+                    }}
+                    onClick={resetField}
+                  >
+                    Clear
+                  </button>
+                  <button
+                    style={{
+                      borderRadius: "5px",
+                      marginLeft: "10px",
+                      width: "30%",
+                      height: "25px",
+                      border: "none",
+                      color: "#ffffff",
+                      fontWeight: "bold",
+                      background: "#b4027b",
+                    }}
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
                 </div>
               </form>
-              <span>{result}</span>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
+export default Contact;
