@@ -88,6 +88,13 @@ export default function Navbar() {
               </div>
             </div>
             <NavLink
+              to="/jobs"
+              className="nav-item nav-link"
+              activeClassName="active"
+            >
+              Jobs
+            </NavLink>
+            <NavLink
               to="/contact"
               className="nav-item nav-link"
               activeClassName="active"

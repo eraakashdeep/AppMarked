@@ -18,7 +18,8 @@ import {
   WhatsAppOutlined,
   EnvironmentOutlined,
   UserAddOutlined,
-  CheckCircleOutlined,ArrowLeftOutlined
+  CheckCircleOutlined,
+  ArrowLeftOutlined,
 } from "@ant-design/icons";
 import "antd/dist/reset.css";
 import Navbar from "./Navbar";
@@ -128,12 +129,31 @@ const Register = () => {
       passoutYear: formattedPassoutYear,
       experience: totalExperience,
     };
-    setVal(values);
+    // setVal(values);
     console.log("Payload: ", payload);
-    form.resetFields();
-    setYears(0);
-    setMonths(0);
-    setIsModalVisible(true);
+    // form.resetFields();
+    // setYears(0);
+    // setMonths(0);
+    // setIsModalVisible(true);
+    fetch(
+      "https://script.google.com/u/0/home/projects/1DT8YxAzHnDVIHVJ_w2KysvoKOKq_EGp4HFgUemuIqm0QtXFloDWDyLxc/edit",
+      {
+        method: "POST",
+        body: JSON.stringify(payload),
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        setVal(values);
+        form.resetFields();
+        setYears(0);
+        setMonths(0);
+        setIsModalVisible(true);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
   const handleReset = () => {
     form.resetFields();
@@ -154,7 +174,7 @@ const Register = () => {
           justifyContent: "center",
           alignItems: "center",
           height: "100%",
-          marginTop:"30px",
+          marginTop: "30px",
         }}
       >
         <Card
@@ -438,8 +458,8 @@ const Register = () => {
                 onClick={handleRedirect}
                 block
               >
-                <ArrowLeftOutlined />&nbsp; 
-                Login - Already User
+                <ArrowLeftOutlined />
+                &nbsp; Login - Already User
               </Button>
             </Form.Item>
           </Form>

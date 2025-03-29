@@ -34,6 +34,7 @@ import Feedback from "./Components/Pages/Feedback";
 import FeedbackAll from "./Components/Pages/FeedbackAll";
 import { Login } from "@mui/icons-material";
 import Sign from "./Components/Pages/Sign";
+import Jobs from "./Components/Pages/JobsPosition";
 
 function App() {
   // const { loginWithRedirect } = useAuth0();
@@ -44,6 +45,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About1 />} />
           <Route path="/courses" element={<Courses1 />} />
+           <Route path="/jobs" element={<Jobs />} />
           {/* <Route path="/offer-letter/EmpId2025/:id" element={<InternshipOfferLetter />} /> */}
           {/* <Route path="/offer-letter" element={<InternshipOfferLetter />} /> */}
           <Route path="/team" element={<Team1 />} />
