@@ -35,6 +35,8 @@ import FeedbackAll from "./Components/Pages/FeedbackAll";
 import { Login } from "@mui/icons-material";
 import Sign from "./Components/Pages/Sign";
 import Jobs from "./Components/Pages/JobsPosition";
+import Opportunity from "./Components/Pages/Opportunity"
+
 
 function App() {
   // const { loginWithRedirect } = useAuth0();
@@ -51,6 +53,7 @@ function App() {
           <Route path="/team" element={<Team1 />} />
           <Route path="/testimonial" element={<Testimonial1 />} />
           <Route path="/contact" element={<Contact1 />} />
+          <Route path="/opportunity" element={<Opportunity />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route
             path="/signin" element={<Sign/>}

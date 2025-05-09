@@ -95,6 +95,13 @@ export default function Navbar() {
               Jobs
             </NavLink>
             <NavLink
+              to="/opportunity"
+              className="nav-item nav-link"
+              activeClassName="active"
+            >
+              Opportunity
+            </NavLink>
+            <NavLink
               to="/contact"
               className="nav-item nav-link"
               activeClassName="active"
