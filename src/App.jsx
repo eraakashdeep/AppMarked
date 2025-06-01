@@ -35,8 +35,11 @@ import FeedbackAll from "./Components/Pages/FeedbackAll";
 import { Login } from "@mui/icons-material";
 import Sign from "./Components/Pages/Sign";
 import Jobs from "./Components/Pages/JobsPosition";
-import Opportunity from "./Components/Pages/Opportunity"
-
+import Opportunity from "./Components/Pages/Opportunity";
+import ResumeMaker from "./Components/Pages/ResumeMaker";
+import ResumeSecond from "./Components/Pages/ResumeSecond";
+import ResumeAts from "./Components/Pages/ResumeAts";
+import HomeResume from "./Components/HomeResume";
 
 function App() {
   // const { loginWithRedirect } = useAuth0();
@@ -47,7 +50,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About1 />} />
           <Route path="/courses" element={<Courses1 />} />
-           <Route path="/jobs" element={<Jobs />} />
+          <Route path="/jobs" element={<Jobs />} />
+          <Route path="/create-my-resume" element={<HomeResume />} />
+          <Route path="/resume-maker" element={<ResumeMaker />} />
+          <Route path="/resume-second" element={<ResumeSecond />} />
+          <Route path="/resume-ats" element={<ResumeAts />} />
           {/* <Route path="/offer-letter/EmpId2025/:id" element={<InternshipOfferLetter />} /> */}
           {/* <Route path="/offer-letter" element={<InternshipOfferLetter />} /> */}
           <Route path="/team" element={<Team1 />} />
@@ -56,7 +63,8 @@ function App() {
           <Route path="/opportunity" element={<Opportunity />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route
-            path="/signin" element={<Sign/>}
+            path="/signin"
+            element={<Sign />}
             // render={() => {
             //   loginWithRedirect();
             // }}

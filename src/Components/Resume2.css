@@ -1,0 +1,230 @@
+.resume-page-2 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.resume-page-2 .resume2 {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.resume-page-2 .resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #15293c;
+  color: white;
+}
+
+.resume-page-2 .profile-image img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  border: 3px solid white;
+}
+
+.resume-page-2 .header-text h1 {
+  font-size: 46px;
+  margin: 0;
+  font-weight: 400 !important;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.resume-page-2 .header-text h3 {
+  font-size: 24px;
+  margin: 0;
+  font-style: italic;
+  text-transform: uppercase;
+  color: rgb(230, 228, 228);
+}
+
+.resume-page-2 .resume-body {
+  display: flex;
+}
+
+.resume-page-2 .sidebar {
+  width: 55%;
+  background-color: #15293c;
+  color: white;
+  padding: 20px;
+}
+
+.resume-page-2 .sidebar section {
+  margin-bottom: 20px;
+}
+
+.resume-page-2 .sidebar h3 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.resume-page-2 .about-me p,
+.resume-page-2 .personal-info p,
+.resume-page-2 .languages span,
+.resume-page-2 .personal-skills span {
+  margin: 0 0 10px;
+}
+
+.resume-page-2 .skill-bar,
+.resume-page-2 .language-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+.resume-page-2 .skill-level,
+.resume-page-2 .language-level {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #3b82f6;
+}
+
+.resume-page-2 .main-content {
+  width: 70%;
+  padding: 20px;
+}
+
+.resume-page-2 .main-content section {
+  margin-bottom: 20px;
+}
+
+.resume-page-2 h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 27px !important;
+  font-weight: 100 !important;
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.resume-page-2 .personal-info {
+  margin-bottom: 20px;
+}
+
+.resume-page-2 .personal-info h3 {
+  font-size: 26px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.resume-page-2 .personal-info p {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+  color: rgb(230, 228, 228);
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resume-page-2 .personal-info p i {
+  margin-right: 20px;
+}
+
+.resume-page-2 .about-me p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0;
+  text-align: left;
+  font-weight: 300;
+  color: rgb(230, 228, 228);
+}
+
+.resume-page-2 .Work-experience h3,
+.resume-page-2 .Education h3,
+.resume-page-2 .awards h3 {
+  background-color: #15293c;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  /* width: 60%; */
+}
+
+.resume-page-2 .sidebar .Work-experience,
+.resume-page-2 .sidebar .Education,
+.resume-page-2 .sidebar .awards {
+  margin-bottom: 30px;
+}
+
+.resume-page-2 .Work-experience h3,
+.resume-page-2 .Education h3,
+.resume-page-2 .awards h3 {
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.resume-page-2 .Education-item,
+.resume-page-2 .Experience-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.resume-page-2 .Education-duration,
+.resume-page-2 .Experience-duration {
+  width: 120px;
+  flex-shrink: 0;
+  text-align: right;
+  margin-right: 90px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 23px;
+  font-size: larger;
+}
+
+.resume-page-2 .Education-details,
+.resume-page-2 .Experience-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-page-2 .Education-header,
+.resume-page-2 .Experience-header {
+  font-size: larger;
+  margin-bottom: 0;
+  display: inline;
+  margin-top: 23px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.resume-page-2 .Education-content,
+.resume-page-2 .Experience-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
+.resume-page-2 .awards {
+  border-radius: 8px;
+}
+
+.resume-page-2 .award-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 4px solid #15293c;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.resume-page-2 .award-item h6 {
+  margin: 0;
+  font-size: 1em;
+  color: #282828;
+}
