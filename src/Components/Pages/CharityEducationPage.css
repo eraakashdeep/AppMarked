@@ -1,0 +1,164 @@
+/* CharityEducationPage.css */
+.charity-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.charity-hero {
+  background-image: url('https://images.unsplash.com/photo-1603570418900-7bfc5d63fcd7?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.donate-button {
+  background-color: #facc15 !important;
+  border: none;
+  color: black !important;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.charity-info {
+  background-color: #f9fafb;
+  padding: 4rem 1rem;
+}
+
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.info-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.info-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info-text p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.charity-pay {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #fef9c3;
+}
+
+.qr-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.qr-container {
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  width: fit-content;
+}
+
+.qr-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.charity-clients {
+  background-color: #1f2937;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.charity-clients h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #f9fafb;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.client-logos img {
+  height: 68px;
+  max-width: 160px;
+  object-fit: contain;
+}
+
+.charity-footer {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+.charity-logo {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  z-index: 100;
+}
+
+.charity-logo img {
+  height: 48px;
+  width: auto;
+}
+
+.info-images-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.info-images-row img {
+  width: 22%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.charity-marquee {
+  background-color: #fff3cd;
+  color: #8a6d3b;
+  padding: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+  border-top: 1px solid #fce8b2;
+  border-bottom: 1px solid #fce8b2;
+}

@@ -40,7 +40,8 @@ import ResumeMaker from "./Components/Pages/ResumeMaker";
 import ResumeSecond from "./Components/Pages/ResumeSecond";
 import ResumeAts from "./Components/Pages/ResumeAts";
 import HomeResume from "./Components/HomeResume";
-
+import CeoProfile from "./Components/Pages/CeoProfile";
+import Donate from "./Components/Pages/Donate";
 function App() {
   // const { loginWithRedirect } = useAuth0();
   return (
@@ -51,6 +52,7 @@ function App() {
           <Route path="/about" element={<About1 />} />
           <Route path="/courses" element={<Courses1 />} />
           <Route path="/jobs" element={<Jobs />} />
+          <Route path="/ceo-profile" element={<CeoProfile />} />
           <Route path="/create-my-resume" element={<HomeResume />} />
           <Route path="/resume-maker" element={<ResumeMaker />} />
           <Route path="/resume-second" element={<ResumeSecond />} />
@@ -58,6 +60,7 @@ function App() {
           {/* <Route path="/offer-letter/EmpId2025/:id" element={<InternshipOfferLetter />} /> */}
           {/* <Route path="/offer-letter" element={<InternshipOfferLetter />} /> */}
           <Route path="/team" element={<Team1 />} />
+          <Route path="/helpkidsbyeducation-donate" element={<Donate />} />
           <Route path="/testimonial" element={<Testimonial1 />} />
           <Route path="/contact" element={<Contact1 />} />
           <Route path="/opportunity" element={<Opportunity />} />
