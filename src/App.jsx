@@ -42,6 +42,9 @@ import ResumeAts from "./Components/Pages/ResumeAts";
 import HomeResume from "./Components/HomeResume";
 import CeoProfile from "./Components/Pages/CeoProfile";
 import Donate from "./Components/Pages/Donate";
+import CertificateVerify from "./Components/Pages/CertificateVerify";
+import CertificateDetailPage from "./Components/Pages/CertificateDetailPage";
+
 function App() {
   // const { loginWithRedirect } = useAuth0();
   return (
@@ -64,6 +67,8 @@ function App() {
           <Route path="/testimonial" element={<Testimonial1 />} />
           <Route path="/contact" element={<Contact1 />} />
           <Route path="/opportunity" element={<Opportunity />} />
+          <Route path="/certificate-verify" element={<CertificateVerify />} />
+          <Route path="/certificate-view-page" element={<CertificateDetailPage />} />
           <Route path="/error" element={<ErrorPage />} />
           <Route
             path="/signin"

@@ -1,0 +1,90 @@
+.detail-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f0f9ff, #dbeafe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.detail-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.detail-title {
+  font-size: 28px;
+  color: #16a34a;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.detail-subtitle {
+  color: #374151;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.score-section {
+  margin-top: 30px;
+}
+
+.score-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.score-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.chart-wrapper {
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.view-btn,
+.download-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.view-btn:hover,
+.download-btn:hover {
+  background-color: #1e40af;
+}
+
+.certificate-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.certificate-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
